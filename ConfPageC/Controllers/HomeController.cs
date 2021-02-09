@@ -42,7 +42,7 @@ namespace ConfPageC.Controllers
             {
                 connection.Open();
 
-                using (MySqlCommand command = new MySqlCommand("SELECT * FROM hellotable WHERE libelle = 'Hello world'", connection))
+                using (MySqlCommand command = new MySqlCommand("SELECT * FROM hellotable", connection))
                 {
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
