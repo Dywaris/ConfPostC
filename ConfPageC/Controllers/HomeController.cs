@@ -29,13 +29,14 @@ namespace ConfPageC.Controllers
                 UserID = "root",
                 Password = "",
                 Database = "conf_post"
-                  */
+                */
                 Server = "localhost",
-                Port = 3306,
-                UserID = "julien",
-                Password = "root",
-                Database = "conf_post"
-              
+              Port = 3306,
+              UserID = "julien",
+              Password = "root",
+              Database = "conf_post"
+                
+
 
             };
             string hello = null;
