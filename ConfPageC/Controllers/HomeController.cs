@@ -24,10 +24,17 @@ namespace ConfPageC.Controllers
             MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder
             {
                 Server = "localhost",
+                Port = 3307,
+                UserID = "root",
+                Password = "",
+                Database = "conf_post"
+
+               /** Server = "localhost",
                 Port = 3306,
                 UserID = "julien",
                 Password = "root",
                 Database = "conf_post"
+               */
             };
             string hello = null;
 
