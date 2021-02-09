@@ -30,6 +30,7 @@ namespace ConfPageC.Controllers
                 Password = "",
                 Database = "conf_post"
                 */
+
                 Server = "localhost",
               Port = 3306,
               UserID = "julien",
